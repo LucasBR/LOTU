@@ -1,0 +1,236 @@
+html,body {
+	margin:0;
+	padding:0;
+	background:#404040 url("images/fond.gif") repeat-x;
+	font-family:arial,sans-serif;
+	font-size:small;
+	color:#ffffff;
+}
+
+form {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.champs {
+	font: 10px Verdana, Geneva, sans-serif;
+	color: #333;
+	border: 0;
+}
+
+div#container {
+	position:relative;
+	margin:0 auto;
+	width:902px;
+	background: #FFF;
+	height:auto !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+	min-height:100%; /* real browsers */
+}
+
+div#header {
+	position:relative;
+	padding:0em;
+	height:520px;
+	background: url(images/sous_bandeau.gif) no-repeat bottom;
+}
+
+div#menu_haut {
+	width: 902px;
+	height: 100px;
+	background: url("images/menu_haut.jpg") no-repeat;
+}
+
+div#logo {
+	float: left;
+	width: 340px;
+	height: 100px;
+	background: url("images/logo.gif") no-repeat;
+}
+
+div#menu {
+	float: left;
+	width: 562px;
+	height: 100px;
+}
+
+div#content {
+	padding:2.5em 0em 5em; /* bottom padding for footer */
+	background: url("images/fond_contenu.gif") repeat-x;
+	color: #333;
+	text-align: center;
+	width: 902px;
+}
+
+div#footer {
+	position:absolute;
+	width:100%;
+	height:32px;
+	bottom:0; /* stick to bottom */
+	background:url("images/bas_page.gif") repeat-x;
+	text-align: center;
+}
+
+div#copy {
+	position:absolute;
+	color: #333;
+	width:100%;
+	height: 18px;
+	bottom:0; /* stick to bottom */
+	text-align: right;
+	z-index: 1;
+}
+
+div#bandeau {
+	height: 351px;
+	width: 902px;
+}
+
+div#menu_bas {
+	height: 69px;
+	width: 902px;
+	background: #2d2d2d;
+}
+
+div#titre {
+	float: left;
+	text-align: center;
+	padding-top: 12px;
+	font: bold 26px "Trebuchet MS",Arial,sans-serif ;
+	width: 622px;
+	height: 69px;
+}
+
+div#formu {
+	float: left;
+	width: 280px;
+	height: 69px;
+	padding-top: 10px;
+}
+
+#navigation {
+	margin: 0 ;
+	padding: 0 ;
+	list-style: none;	
+}
+
+#navigation li {
+	float: left ;
+	height: 100px;
+	color: #fff;
+}
+
+#navigation li a {
+	display: block ;
+	color: #FFF;
+	font: 1em "Trebuchet MS",Arial,sans-serif ;
+	line-height: 1em ;
+	padding: 4px 0 ;
+	text-align: center ;
+	text-decoration: none;
+}
+
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+	color: #FFF;
+	text-decoration: none;
+	background: url(images/fond_menu.gif) repeat-x;
+	background-position: 0px 0px;
+}
+.m:hover {
+	color: #FFF;
+	background: url(images/fond_menu.gif) repeat-x;
+	background-position: 0px 0px;
+}
+
+.space {
+	height: 50px;
+	visibility: hidden;
+}
+
+#envoyer {
+	position: absolute;	
+}
+
+h1 {
+	font: 16px Arial, Helvetica, sans-serif;
+	color: #000;
+}
+.rent_buy {
+	background: url(images/rent_bt.png);
+	width: 268px;
+	height: 216px;
+	position: relative;
+}
+.rent_buyP1 {
+	background: url(images/fond_rentp1.gif);
+	width: 268px;
+}
+.to_rent {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: #717171;
+	position: absolute;
+	top: 5px;
+	left: 35px;
+}
+.to_ref {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: #717171;
+	position: absolute;
+	top: 200px;
+	left: 160px;
+}
+.txt {
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #000;
+}
+.more {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: #fc9f10;
+	text-align: right;
+	margin: 0px;
+}
+.liensMore {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: #fc9f10;
+	text-decoration: none;
+}
+.liensMore:hover {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: #333;
+	text-decoration: none;
+}
+.copy {
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+#resol {
+	text-align:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	position:fixed;
+	font-size: 10px;
+	width:230px;
+	top:0px;
+	left:1280px;
+	margin:0 auto;
+	background:#bfc6d9;
+	text-align:center;
+} 
+
+#resol h1 {
+	background:none;
+	font-size: 15px;
+	letter-spacing:3px;
+	padding:0px;
+	margin:0px;
+	border: 0px;
+} 
+
+#resol h2 {
+	font-size:10px;
+	letter-spacing:3px;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	background:none;
+}

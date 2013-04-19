@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><title>How to customize this template</title>
+
+<style type="text/css">
+<!--
+body {font-family: Verdana, Arial, Helvetica, sans-serif;font-size:11px}
+.Style1 {color: #FF0000}
+.Style3 {color: #339966}
+.Style5 {color: #FF0000; font-weight: bold; }
+.Style6 {color: #000000}
+-->
+</style></head><body>
+<p><u>Remarks</u>:</p>
+
+<p>-	Due to flash 9 security restrictions, this flash template will have <span class="Style1"><strong>a better behaviour when it's online</strong></span>. When it's running online, transition between pages go more smoothly and all template features are fully operational.</p>
+<p>- Due to flash 9 security restrictions, you <span style="color: red; font-weight: bold;">must use Firefox browser </span>to
+test localy your template. Your website&nbsp; should work properly on
+other browers (Internet Explorer, Safari, Opera, Chrome...) when you
+will put your website online.<br />
+<span style="color: black;" /><br />
+- This flash template is very easy to customize : no flash programming
+knowledge required and you don't need Macromedia Flash to customize it.
+You customize it through external XML and (X)HTML files.</p>
+
+<p>- The zip file include dfGallery (an imageviewer,
+http://dezinerfolio.com) and lightbox
+(http://www.huddletogether.com/projects/lightbox2/).</p>
+<p><u>How to </u>:</p>
+<p><u>1. How to customize home page?</u><br />
+- Open the file <em>index.htm</em>
+with notepad or any HTML editor and edit you website name, slogans,
+news insert, copyright, etc. The file index.htm is the main template of
+the website, it means that every modifications you will make on this
+file will appear on every page of your website. </p>
+<p><u>2. How to add a new page / a new button ?</u>  <br />
+- Open the file <em>index.htm</em> with notepad or any HTML editor and add the following code  between the lines &lt;!-- Menu --&gt; and &lt;!-- Menu end --&gt; :</p>
+<p><br />
+myButton('<span class="Style1"><em>YOUR PAGE NAME</em></span>','<span class="Style1"><em>_mypagename.htm</em></span>');<br />
+</p>
+<p>- Create file <em>_mypagename.htm</em> with your HTML content. Don't
+put &lt;html&gt;,&lt;head&gt;, &lt;body&gt;,... tags in this file as it
+will be loaded as a &lt;div&gt; in the main page.</p>
+<p><u><br />
+  3. How to customize dynamic flash buttons ?</u> <br />
+ Open and edit button.xml file : Becarfull to <span class="Style5">not </span>add "#" before colors. <br />
+    <br />
+  &lt;?xml version='1.0' encoding='UTF-8' ?&gt;<br />
+  &lt;button&gt;<br />
+  &lt;item_default_bgcolor&gt;<span class="Style1">FFFFFF</span>&lt;/item_default_bgcolor&gt;<br />
+  &lt;item_default_text_color&gt;<span class="Style1">B9B9B9</span>&lt;/item_default_text_color&gt;<br />
+  &lt;item_mousover_text_color&gt;<span class="Style1">FFFFFF</span>&lt;/item_mousover_text_color&gt;<br />
+&lt;item_mousover_bgcolor&gt;<span class="Style1">669AC6</span>&lt;/item_mousover_bgcolor&gt;<br />
+&lt;item_default_bullet_color&gt;ffffff&lt;/item_default_bullet_color&gt;<br />
+  &lt;item_mousover_bullet_color&gt;F47B33&lt;/item_mousover_bullet_color&gt;<br />
+  &lt;item_font&gt;<span class="Style1">Trebuchet MS</span>&lt;/item_font&gt;&lt;!--use <span class="Style5">"default"</span><span class="Style1"> <span class="Style6">:</span> <span class="Style6">&lt;item_font&gt;<span class="Style1">default</span>&lt;/item_font&gt;</span></span> for a better rendering --&gt; <br />
+  &lt;item_font_size&gt;<span class="Style1">16</span>&lt;/item_font_size&gt;<br />
+  &lt;item_letter_spaceing&gt;<span class="Style1">0.2</span>&lt;/item_letter_spaceing&gt;<br />
+  &lt;item_bold&gt;<span class="Style1">yes</span>&lt;/item_bold&gt;<br />
+  &lt;item_x&gt;<span class="Style1">19</span>&lt;/item_x&gt;<br />
+  &lt;item_y&gt;<span class="Style1">2</span>&lt;/item_y&gt;<br />
+  &lt;item_play_sound&gt;<span class="Style1">yes</span>&lt;/item_play_sound&gt;<br />
+  &lt;/button&gt; <br />
+</p>
+<p><u>4. How to customize dynamic flash header ? </u><br />
+You can add as many images and slogans you want, but too many images will slowdown your flash header download.  
+Open and edit custom.xml file. Replace red values by yours. Becarfull to <span class="Style5">not </span>add "#" before colors. </p>
+<p>&lt;?xml version='1.0' encoding='UTF-8' ?&gt;<br />
+  &lt;header_vars&gt;<br />
+  <span class="Style3">&lt;!-- music controler (music note) color --&gt; </span><br />
+  &lt;graphics_color&gt;<span class="Style1">FFFFFF</span>&lt;/graphics_color&gt;<br />
+&lt;animation_loop&gt;<span class="Style1">no</span>&lt;/animation_loop&gt;<br />
+<span class="Style3">&lt;!-- transition time (in seconds) between two animation screens --&gt;</span><br />
+&lt;transition_time_seconds&gt;5&lt;/transition_time_seconds&gt;</p>
+<p>&lt;header&gt;<br />
+  &lt;text_header_h1 x_pos="<span class="Style1">5</span>" y_pos="<span class="Style1">55</span>" size="<span class="Style1">19</span>" letter_spacing="<span class="Style1">0</span>" text_color="<span class="Style1">FFFFFF</span>"&gt;<span class="Style1">YOUR WAY TO SUCCESS</span>&lt;/text_header_h1&gt;<br />
+  &lt;text_header_h2 x_pos="<span class="Style1">10</span>" y_pos="<span class="Style1">80</span>" size="<span class="Style1">10</span>" letter_spacing="<span class="Style1">1.9</span>" text_color="<span class="Style1">FFFFFF</span>"&gt;<span class="Style1">YOUR OWN SLOGANS AND IMAGES</span>&lt;/text_header_h2&gt; <br />
+  &lt;image&gt;<span class="Style1">images/flashimages/your_image2.jpg</span>&lt;/image&gt;<br />
+  &lt;/header&gt; <br />
+  &lt;header&gt;<br />
+  .....<br />
+  &lt;/header&gt; <br />
+  &lt;header&gt;<br />
+  ....<br />
+&lt;/header&gt; </p>
+<p><span class="Style3">&lt;!--<br />
+</span><span class="Style3">change to play_music="<span class="Style1">no</span>" if you don't want to add music to your header <br />
+change to music_contro="<span class="Style1">no</span>" if you don't want to display music controler. If you have music_file loop="<span class="Style1">no</span>" you MUST have  music_control="no"</span><br />
+  <span class="Style3">--&gt; </span><br />
+&lt;music_file loop="<span class="Style1">no</span>" music_control="<span class="Style1">no</span>" play_music="<span class="Style1">yes</span>"&gt;<span class="Style1">sounds/music.mp3</span>&lt;/music_file&gt;<br />
+  <br />
+  <span class="Style3">&lt;!-- change to &lt;play_transition_sound_file&gt;<span class="Style1">no</span>&lt;/play_transition_sound_file&gt; --&gt; </span><br />
+&lt;play_transition_sound_file&gt;<span class="Style1">yes</span>&lt;/play_transition_sound_file&gt;<br />
+  <br />
+  <span class="Style3">&lt;!-- change to &lt;display_preload graphic_color="<span class="Style1">669ac6</span>"&gt;<span class="Style1">no</span>&lt;/display_preload&gt; if you don't want to show the flash header prealoder--&gt; </span><br />
+&lt;display_preload graphic_color="<span class="Style1">669ac6</span>"&gt;yes&lt;/display_preload&gt;<br />
+  <br />
+  <br />
+&lt;replay display="<span class="Style1">yes</span>" x_pos="<span class="Style1">493</span>" y_pos="<span class="Style1">135</span>" size="<span class="Style1">8</span>" letter_spacing="<span class="Style1">1</span>" bgd_color="<span class="Style1">FFFFFF</span>" text_color="<span class="Style1">000000</span>"&gt; REPLAY&lt;/replay&gt;<br />
+&lt;/header_vars&gt;</p>
+<p><u>5. How to configure contact form ? </u><br />
+The contact form will only work when your template will be online and hosted on a PHP server.<br />
+Open and edit contact.php file and edit the following line :<br />
+<br />
+$your_email = "<span class="Style1">example@example.com</span>";</p>
+<p><u>6. How to configue the image viewer ?</u> <br />
+http://www.dezinerfolio.com/system/files/Manual.zip</p>
+<p><u>6. How to overlay images  on the current page ?</u><br />Add rel="lightbox" attribute to any link tag to activate the lightbox. For example: <br />&lt;a href="images/image-big-1.jpg" rel="lightbox" title="Optional
+caption"&gt;&lt;img src="images/image-small-1.jpg" alt="my photo"
+/&gt;&lt;/a&gt;<br />
+</p>
+</body></html>

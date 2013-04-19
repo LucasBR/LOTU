@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h2 {
+	background: url(images/ico_puce.gif) no-repeat left;
+	padding-left: 20px;
+	font-variant: small-caps;
+	border-bottom: solid 1px #eae9e9;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+	font: 16px Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+h4 {
+	text-align: center;
+	color: #ff9600;
+	font-variant: small-caps;
+	font-size: 0.8em;
+	margin-bottom: 5px;
+}
+
+.clear {
+	clear: both;
+}
+
+.lienHaut {
+	text-decoration: none;
+	color: #F90;
+}
+
+img {
+	border: 0px;	
+}
+
+/**************************************** CONTENT ****************************/
+
+#photo_compagny {
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#left {
+	float:left;
+	text-align: left;
+	width: 530px;
+	color: #333;
+	padding-left: 20px;
+}
+
+#welcome, #title_bottom {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#left p {
+	width: 340px;
+	float: right;
+	text-align: justify;
+}
+
+#left p.sans {
+	/*border: 2px solid red;*/
+	padding-left: 15px;
+	width: 520px;
+	float:left;
+}
+
+#form_contact {
+	/*border: 2px solid red;*/
+	padding-left: 200px;
+}
+
+#form_contact fieldset {
+	border: 2px solid #EAE9E9;
+	font-size: 10px;
+	color: #123456;
+	width: 340px;
+}
+
+#form_search {
+	/*border: 2px solid red;*/
+}
+
+#form_search fieldset {
+	border: 2px solid #EAE9E9;
+	font-size: 10px;
+	color: #123456;
+}
+
+#form_contact fieldset {
+	border: 2px solid #EAE9E9;
+	font-size: 10px;
+	color: #123456;
+}
+
+.champ {
+	font-size: 12px;
+	width: 200px;
+}
+
+.texte_legende {
+	color: #FF9600;
+}
+
+.texte {
+	font-size: 12px;
+	width: 180px;
+	height: 30px;
+	text-align: right;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+#left li {
+	display: inline;
+	float: left;
+	width: 185px;
+	margin: 0 20px;
+}
+
+.top_frame {
+	overflow: hidden;
+	background: url(images/top_frame.gif) no-repeat;
+	height: 10px;
+}
+
+.middle_frame {
+	padding: 5px 0;
+	background: url(images/middle_frame.gif) repeat-y;
+	width: 100%;
+}
+ 
+.middle_frame span, .middle_frame a {
+	display: block;
+	margin: 0 10px;
+}
+
+.bottom_frame {
+	overflow: hidden;
+	background: url(images/bottom_frame.gif) no-repeat;
+	height: 10px;
+}
+
+.title_bottom {
+	padding-top: 20px;
+	background: url(images/bottom_menu.gif) repeat-x top;
+}
+
+#left span {
+	font-size: 0.7em;
+}
+
+a.link_right:link, a.link_right:visited {
+	float: right;
+	margin-right: 5px;
+	color: #ff9600;
+	margin-top: 2px;
+	font-size: 0.7em;
+}
+
+a.link_right:hover, a.link_right:active {
+	float: right;
+	margin-right: 5px;
+	color: #ff9600;
+	margin-top: 2px;
+	text-decoration: underline;
+	font-size: 0.7em;
+
+}
+
+#right {
+	float:right;
+	text-align: left;
+	width: 220px;
+	color: #FFF;
+	padding-right: 20px;
+}
+
+#right div {
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+fieldset {
+	width: 180px;	
+}
+
+#right p {
+	margin: 10px 0;
+	color: #333;
+}
+
+.input {
+	background: url(images/input_text.gif) no-repeat;
+	border:none;
+	font-size: 0.8em;
+	height: 20px;
+	width: 160px;
+	padding-top: 5px;
+	margin-left: 5px;
+	padding-left: 5px;
+}
+
+.button {
+	float: right;
+	color: #FFFFFF; 
+	font-size: 12px;
+	border: 2px solid white;
+	background: #f38f00;
+	margin: 5px 5px 0 0 ;
+}
+
+.button_send {
+	float: none;
+	color: #FFFFFF; 
+	font-size: 12px;
+	border: 2px solid white;
+	background: #f38f00;
+	margin: 5px 5px 0 0 ;
+}
