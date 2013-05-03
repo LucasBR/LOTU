@@ -1,0 +1,2 @@
+
+Abra o icone Lotus Web Site, e a pagina aparecerá no navegar. NO Navegador ele irá perguntar se permite conteudo bloqeado, então aceite e a pagina será liberada para exibição.
