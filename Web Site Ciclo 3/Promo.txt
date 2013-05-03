@@ -1,0 +1,13 @@
+
+Promo
+
+Escolar 
+-----------------------------------
+Valor da Tarifa
+
+O valor da passagem escolar é R$1,42 (um real e quarenta e dois centavos). A passagem escolar corresponde a 50% do valor da passagem do transporte coletivo urbano de Porto Alegre.
+
+Idosos e Deficientes 
+-----------------------------------
+
+O valor da passagem escolar é R$1,85 (um real e quarenta e dois centavos). A passagem escolar corresponde a 35% do valor da passagem do transporte coletivo urbano de Porto Alegre.
